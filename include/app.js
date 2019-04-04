@@ -124,6 +124,6 @@
         return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
     }
 
-    setTimeout(openFromUrl,100);
+    setTimeout(openFromUrl,500);
 
 })();
