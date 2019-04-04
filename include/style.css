@@ -1,0 +1,10 @@
+label{
+    display: inline-block;
+    width: 200px;
+}
+code{
+    white-space:pre;
+}
+body{
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}

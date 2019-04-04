@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PicsCsser</title>
+        
+    </head>
+    <body>
+        <p>
+            Generate image in CSS with box-shadow
+        </p>
+        <p>
+            <label for="fileinput">Picture to convert</label><input id="fileinput" type="file" /> or <input id="fileinputUrl" type="text" value="static/cartoon.jpg"/>
+        </p>
+        <p>
+            <label for="psinput"  >Pixel size (in px)</label><input id="psinput" type="number" value="5"/>
+        </p>
+        <p>
+            <label for="backgroundColor">background color (for remove)</label><input id="backgroundColor" type="text" value="#ffffff"/>            
+        </p>
+        <p>
+            <label for="convertButton">background color (for remove)</label><input id="convertButton" type="button" value="Convert"/>            
+        </p>
+        <canvas id="canvas"></canvas>      
+        <style type="text/css" id="cssStyle" >
+        </style>
+        <hr />
+        <div id="imgCss"></div>
+        <hr />
+        <code id="cssCode">            
+        </code>
+
+        
+        <style >
+        
+        @import url("include/style.css");
+        </style>
+        <script src="include/app.js" ></script>
+    </body>
+</html>
